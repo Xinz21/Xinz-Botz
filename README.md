@@ -3,7 +3,7 @@
     <img src="https://telegra.ph/file/772a926bf77cf1819f320.jpg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
 
-<h1 align="center">Xinz</h1>
+<h1 align="center">Xinz-Botz</h1>
 
 -----------
 ## Description
