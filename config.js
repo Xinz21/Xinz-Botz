@@ -22,22 +22,17 @@ global.APIs = { // API Prefix
   xteam: 'https://api.xteam.xyz',
   nrtm: 'https://fg-nrtm.ddns.net',
   bg: 'http://bochil.ddns.net',
-  fgmods: 'https://api.fgmods.xyz'
 }
 global.APIKeys = { // APIKey Here*
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://zenzapis.xyz': '675e34de8a',
-  'https://api.fgmods.xyz': 'dEBWvxCY'
 }
 global.wm = 'Xinz-Botz' //Main Watermark
 global.titlebot = 'Xinz-Botz'
 global.yanto = 'Xinz-Botz' // ini nama bot nya di all
+//-------link-------//
 global.fotononya ='https://telegra.ph/file/082a4ae9d2a7c28e72efd.jpg'
-//link//
-global.sig = 'https://rezex-apis.vercel.app/'
-global.sgh = 'https://github.com/arknDEV'
-global.sgc = 'https://whatsapp.com/channel/0029VaBLKKL0lwgmG3k8Lv30'
 global.sch = 'https://whatsapp.com/channel/0029VaPUf21A2pLK75IBJJ0m'
 global.fotonya = 'https://telegra.ph/file/ebc31e6041812a4241a91.jpg'
 global.shop = 'https://telegra.ph/file/62f7921ca44e045fc416c.jpg'
@@ -54,15 +49,13 @@ global.ppUrl = 'https://i.ibb.co/3Fh9V6p/avatar-contact.png'
 global.registrasi = 
   'https://telegra.ph/file/d1080dd644d6476cfa5e5.jpg'
 
-// Sticker WM
+// Sticker WM and react
 global.packname = ''
 global.author = 'Xinz'
-global.wait = '*▰▰▰▱▱▱▱▱*'
-global.wait = '⌛'
-global.moji = '🥵'
+global.wait = '*_Wait_*'
+global.nsfw = '🥵'
 global.done = '✅'
 global.error = '❌'
-global.moji = '🧢'
 
 global.multiplier = 69
 global.maxwarn = '2' // maximal warn
