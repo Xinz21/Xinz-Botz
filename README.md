@@ -10,6 +10,11 @@
 Xinz botz adalah bot yang di rancang untuk bermain ff
 ------------
 
+------------
+## Feature 
+- pairing
+------------
+
 ## Thanks To
 - Adiwajshing
 - Whiskeysockets
@@ -18,5 +23,6 @@ Xinz botz adalah bot yang di rancang untuk bermain ff
 - Xinz
 - Xira
 
+-------------
 ## Note 
 jangan di perjual beli kan
