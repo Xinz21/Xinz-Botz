@@ -1,40 +1,38 @@
-import fetch from 'node-fetch';
+// * Code By Nazand Code
+// * Fitur Convert Cjs To Esm (Dibuat Krn Gabut)
+// * Hapus Wm Denda 500k Rupiah
+// * https://whatsapp.com/channel/0029Vaio4dYC1FuGr5kxfy2l
 
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-  if (!text) return m.reply(`*• Example:* ${usedPrefix + command} *[username]*`);
-  
-  let apiUrl = '';
-  if (command === 'roasting') {
-    apiUrl = `https://fastrestapis.fasturl.cloud/ai/github/roasting?username=${text}&profile=false&language=id`;
-  } else if (command === 'praising') {
-    apiUrl = `https://fastrestapis.fasturl.cloud/ai/github/praising?username=${text}&profile=true&language=id`;
-  }
+let handler = async (m, { text }) => {
+    if (!text) return m.reply('Masukkan Code Cjs Yang Ingin Di Convert Esm.');
 
-  try {
-    let response = await fetch(apiUrl, {
-      method: 'GET',
-      headers: {
-        'accept': 'application/json',
-        'x-api-key': '0777052b-e6ef-49bb-bbc4-9aa397228c06'
-      }
-    });
+    try {
+        const esmCode = convertCJStoESM(text);
 
-    let kont = await response.json();
-
-    if (kont && kont.data && kont.data.roasting) {
-      m.reply(kont.data.roasting);
-    } else if (kont && kont.data && kont.data.praising) {
-      m.reply(kont.data.praising);
-    } else {
-      m.reply(eror);
+        m.reply(`//To Esm\n\n${esmCode}`);
+    } catch (error) {
+        console.error('Error Convert Code Cjs To Esm:', error);
+        m.reply('Ada Yang Error Om, Cek Lagi Code nya.');
     }
-  } catch (error) {
-    m.reply(`Terjadi kesalahan: ${error.message}`);
-  }
 };
 
-handler.help = ["roasting","praising"].map((a) => a + ` *[akun github]*`);
-handler.tags = ["internet"];
-handler.command = ["roasting", "praising"];
+function convertCJStoESM(cjsCode) {
+    let esmCode = cjsCode.replace(/const (.*) = require\((.*)\);?/g, (match, p1, p2) => {
+        return `import ${p1} from ${p2};`;
+    });
+    
+    esmCode = esmCode.replace(/module\.exports =/g, 'export default');
+    esmCode = esmCode.replace(/exports\.(.*) =/g, 'export const $1 =');
 
+    return esmCode;
+}
+handler.tags = ['tools'];
+handler.command = ['convertesm'];
+handler.help = ['convertesm cjscode'];
+handler.limit = true
 export default handler;
+
+// * Code By Nazand Code
+// * Fitur Convert Cjs To Esm (Dibuat Krn Gabut)
+// * Hapus Wm Denda 500k Rupiah
+// * https://whatsapp.com/channel/0029Vaio4dYC1FuGr5kxfy2l
