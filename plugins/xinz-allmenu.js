@@ -209,7 +209,7 @@ let tags = {
     throw e
   }
 }
-handler.command = /^(allmenu|\?)$/i
+handler.command = /^(allmenu|id|\?)$/i
 handler.register = false
 handler.exp = 3
 export default handler
