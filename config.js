@@ -35,12 +35,15 @@ global.wm = 'Xinz-Botz' //Main Watermark
 global.titlebot = 'Xinz-Botz'
 global.namebot = 'Xinz-Botz' // ini nama bot nya di all
 
-//*-------link-------*\\
+//*======== Icon ============*\\
+//icon rasio 1:1 ↓↓↓↓
 global.imgbot ='https://telegra.ph/file/082a4ae9d2a7c28e72efd.jpg'
-global.sch = 'https://whatsapp.com/channel/0029VaPUf21A2pLK75IBJJ0m'
+//larger rasio 16:9 ↓↓↓↓
 global.imgbot2 = 'https://telegra.ph/file/ebc31e6041812a4241a91.jpg'
+//channels
+global.sch = 'https://whatsapp.com/channel/0029VaPUf21A2pLK75IBJJ0m'
 
-//handler
+//*========= handler ========*\\
 global.wel =
   'https://telegra.ph/file/c0b8126d1c948e3d29837.mp4'
 global.good = 
