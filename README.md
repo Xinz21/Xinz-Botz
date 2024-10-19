@@ -6,8 +6,8 @@
 <h1 align="center">Xinz-Botz</h1>
 
 -----------
-## Description
-Xinz botz adalah bot yang di rancang untuk bermain ff
+##
+- Xinz botz adalah bot yang di rancang untuk bermain ff
 ------------
 
 ------------
