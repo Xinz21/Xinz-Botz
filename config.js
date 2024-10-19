@@ -30,15 +30,13 @@ global.APIKeys = { // APIKey Here*
 }
 global.wm = 'Xinz-Botz' //Main Watermark
 global.titlebot = 'Xinz-Botz'
-global.yanto = 'Xinz-Botz' // ini nama bot nya di all
+global.namebot = 'Xinz-Botz' // ini nama bot nya di all
 //-------link-------//
-global.fotononya ='https://telegra.ph/file/082a4ae9d2a7c28e72efd.jpg'
+global.imgbot ='https://telegra.ph/file/082a4ae9d2a7c28e72efd.jpg'
 global.sch = 'https://whatsapp.com/channel/0029VaPUf21A2pLK75IBJJ0m'
-global.fotonya = 'https://telegra.ph/file/ebc31e6041812a4241a91.jpg'
-global.shop = 'https://telegra.ph/file/62f7921ca44e045fc416c.jpg'
-global.music = 'https://telegra.ph/file/707d8cccd585aaa224f48.jpg'
-global.denied =
-'https://telegra.ph/file/07366941f4baae7251bf1.jpg'
+global.imgbot2 = 'https://telegra.ph/file/ebc31e6041812a4241a91.jpg'
+
+//handler
 global.wel =
   'https://telegra.ph/file/c0b8126d1c948e3d29837.mp4'
 global.good = 
@@ -46,15 +44,13 @@ global.good =
 global.ppKosong = 'https://i.ibb.co/3Fh9V6p/avatar-contact.png'
 global.thumbnail = 'https://telegra.ph/file/fc5a59759d9c0dad9c14d.jpg'
 global.ppUrl = 'https://i.ibb.co/3Fh9V6p/avatar-contact.png'
-global.registrasi = 
-  'https://telegra.ph/file/d1080dd644d6476cfa5e5.jpg'
 
 // Sticker WM and react
 global.packname = ''
-global.author = 'Xinz'
-global.wait = '*_Wait_*'
+global.author = 'XinZ'
+global.wait = '*_{======}_*'
 global.nsfw = '🥵'
-global.done = '✅'
+global.done = '☑️'
 global.error = '❌'
 
 global.multiplier = 69
