@@ -1,3 +1,4 @@
+//maks 70
 const cooldown = 60000
 
 let handler = async (m, { conn, args, usedPrefix, isPrems, isOwner, command }) => {
