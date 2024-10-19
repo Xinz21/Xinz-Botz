@@ -25,6 +25,9 @@ Xinz botz adalah bot yang di rancang untuk bermain ff
 - on/off
 - autoread sw
 - autoreact/like sw
+- ai fitur
+- rpg (basic)
+- tools
 - and comming soon
 ------------
 
@@ -34,6 +37,8 @@ Xinz botz adalah bot yang di rancang untuk bermain ff
 - Bochilgaming
 - VanzDev
 - Xinz
+- Ryx
+- Neo/Nexx
 - Xira
 - and all
 
