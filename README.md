@@ -11,6 +11,13 @@ Xinz botz adalah bot yang di rancang untuk bermain ff
 ------------
 
 ------------
+## Fixxed / Added
+- fix bug
+- add beton list
+- and all
+------------
+
+------------
 ## Feature 
 - pairing
 ------------
@@ -22,6 +29,7 @@ Xinz botz adalah bot yang di rancang untuk bermain ff
 - VanzDev
 - Xinz
 - Xira
+- and all
 
 -------------
 ## Note 
