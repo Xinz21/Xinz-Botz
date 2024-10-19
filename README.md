@@ -18,6 +18,16 @@ Xinz botz adalah bot yang di rancang untuk bermain ff
 ------------
 
 ------------
+## cara pairing/update Baileys
+- ke package
+- cari whiskeysokect
+- ganti yang 6.7.8 ke 6.5.0
+- save and run setelah tersambung
+- ganti deh ke 6.7.8 terus download modul nya
+- mudah bukan?
+-------------
+
+------------
 ## Feature 
 - pairing
 - beton list
