@@ -218,7 +218,7 @@ let listMessage = {
 > - *Owner:* ${isOwner ? "Ya" : "Tidak"}
 
 \`B O T  S T A T U S\`
-> - *Name Bot:* *${global.yanto}*
+> - *Name Bot:* *${global.namenot}*
 > - *Baileys:* *whiskeysockets/6.7.8*
 > - *Baileys Bawaan:* *adiwajshing*
 > - *Version:* *4.2.1*
