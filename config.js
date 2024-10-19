@@ -2,13 +2,13 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
-/*============== NOMOR ==============*/
+//*============== NOMOR ==============*\\
 global.nomorbot = '62888021017××' //Nomor Bot
 global.nomorown = '62813198103××' //Nomor Ownerlobal.namebot 
 global.namebot = 'Xinz-Botz'
 global.nameown = 'XinZ' // Nama Owner
 
-/*============== Owner ==============*/
+//*============== Owner ==============*\\
 global.owner = [
   ['+62888021017××', 'Xira', true],
   ['+62813198103××', 'XinZ', true],
@@ -17,7 +17,9 @@ global.owner = [
 
 global.mods = ['', '']
 global.prems = ['', '', '']
-global.APIs = { // API Prefix
+
+//*============= API Prefix ==========*\\
+global.APIs = { 
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz',
   nrtm: 'https://fg-nrtm.ddns.net',
@@ -28,10 +30,12 @@ global.APIKeys = { // APIKey Here*
   'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://zenzapis.xyz': '675e34de8a',
 }
+//watermark\\
 global.wm = 'Xinz-Botz' //Main Watermark
 global.titlebot = 'Xinz-Botz'
 global.namebot = 'Xinz-Botz' // ini nama bot nya di all
-//-------link-------//
+
+//*-------link-------*\\
 global.imgbot ='https://telegra.ph/file/082a4ae9d2a7c28e72efd.jpg'
 global.sch = 'https://whatsapp.com/channel/0029VaPUf21A2pLK75IBJJ0m'
 global.imgbot2 = 'https://telegra.ph/file/ebc31e6041812a4241a91.jpg'
