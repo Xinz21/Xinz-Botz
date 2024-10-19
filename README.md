@@ -12,7 +12,7 @@ Xinz botz adalah bot yang di rancang untuk bermain ff
 
 ------------
 ## Fixxed / Added
-- fix bug
+- fix bug modul
 - add beton list
 - and all
 ------------
@@ -20,6 +20,12 @@ Xinz botz adalah bot yang di rancang untuk bermain ff
 ------------
 ## Feature 
 - pairing
+- beton list
+- beton slide
+- on/off
+- autoread sw
+- autoreact/like sw
+- and comming soon
 ------------
 
 ## Thanks To
