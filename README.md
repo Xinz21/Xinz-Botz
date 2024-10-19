@@ -39,6 +39,7 @@ Xinz botz adalah bot yang di rancang untuk bermain ff
 - rpg (basic)
 - tools
 - and comming soon
+- maybe top up?
 ------------
 
 ## Thanks To
