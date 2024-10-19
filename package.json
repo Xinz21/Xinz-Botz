@@ -1,6 +1,6 @@
 {
-  "name": "Xinz-Botz",
-  "version": "4.2.1",
+  "name": "XinZ - Botz",
+  "version": "2.2.2",
   "description": "Customizable WhatsApp Bot",
   "main": "index.js",
   "type": "module",
@@ -24,15 +24,19 @@
     "MD",
     "baileys-md"
   ],
+  "author": {
+    "name": "XinZ"
+  },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@6.7.8",
+    "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@6.7.8", //jika ingin pairing work ganti ke 6.5.0
     "@adiwajshing/keyed-db": "^0.2.4",
-    "@bochilteam/scraper": "^3.0.0",
-    "@vitalets/google-translate-api": "^9.2.0",
+     "@bochilteam/scraper": "^4.2.4",
+      "@vitalets/google-translate-api": "^9.2.0",
     "api-dylux": "^1.5.5",
     "awesome-phonenumber": "^3.4.0",
     "axios": "^1.1.2",
+      "natural": "^7.1.0",
     "cfonts": "^3.1.1",
     "chalk": "^5.1.0",
     "cheerio": "^1.0.0-rc.12",
@@ -62,6 +66,8 @@
     "pino": "^8.6.1",
     "pino-pretty": "^9.1.1",
             "pdfkit": "*",
+      "canvafy": "^7.0.4",
+      "nodemailer": "*",
       "acrcloud": "*",
     "qrcode": "^1.5.1",
     "qrcode-terminal": "^0.12.0",
@@ -84,6 +90,7 @@
      "acrcloud": "^1.4.0",
      "awesome-phonenumber": "^2.68.0",
      "axios": "^1.3.4",
+      "natural": "^7.1.0",
      "cfonts": "^3.1.1",
      "chalk": "^5.0.1",
      "cheerio": "^1.0.0-rc.12",
@@ -123,6 +130,8 @@
         "pino": "^8.11.0",
         "pino-pretty": "^9.4.0",
             "pdfkit": "*",
+      "canvafy": "^7.0.4",    
+      "nodemailer": "*",
       "acrcloud": "*",
             "node-id3": "^0.2.6",
           "node-cron": "^3.0.2",
@@ -148,4 +157,4 @@
     "moment-timezone": "^0.5.45",
     "wa-sticker-formatter": "^4.3.2"
   }
-} 
+}
