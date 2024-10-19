@@ -3,20 +3,20 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6288802101736' //Nomor Bot
-global.nomorown = '6281319810300' //Nomor Ownerlobal.namebot 
+global.nomorbot = '62888021017××' //Nomor Bot
+global.nomorown = '62813198103××' //Nomor Ownerlobal.namebot 
 global.namebot = 'Xinz-Botz'
-global.nameown = 'XianZuki' // Nama Owner
+global.nameown = 'XinZ' // Nama Owner
 
 /*============== Owner ==============*/
 global.owner = [
-  ['+6288802101736', 'Xianzuki', true],
-  ['+6281319810300', 'Rezex', true],
-  ['+6281537668728', 'Vanz', true]
+  ['+62888021017××', 'Xira', true],
+  ['+62813198103××', 'XinZ', true],
+  ['+62815376687××', 'Vanz', true]
   ]//Nomor owner 
 
-global.mods = ['6283857092641', '6281319810300']
-global.prems = ['62895622599448', '6285719258390', '6285840131739']
+global.mods = ['', '']
+global.prems = ['', '', '']
 global.APIs = { // API Prefix
   // name: 'https://website'
   xteam: 'https://api.xteam.xyz',
