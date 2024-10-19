@@ -1,3 +1,4 @@
+// ga bisa gw prompt jir info api dong yg bisa di prompt
 let handler = async (m, { conn, text }) => {
   if (!text) {
     m.reply('Ada yang bisa di bantu');
