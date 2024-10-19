@@ -1395,7 +1395,7 @@ isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid:
 "120363240926353589@newsletter",
-        newsletterName: global.yanto,
+        newsletterName: global.namebot,
       },
       externalAdReply: {
       title: action === 'add' ? 'W E L C O M E' : ' G O O D  B Y E',
@@ -1522,7 +1522,7 @@ let mssgg = {
       externalAdReply: {
       title: '乂 A K S E S D I T O L A K,',
       body: '',
-      thumbnailUrl: denied,
+      thumbnailUrl: imgbot2,
       sourceUrl: sch,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -1557,7 +1557,7 @@ let msgg = {
       externalAdReply: {
       title: '乂',
       body: '',
-      thumbnailUrl: denied,
+      thumbnailUrl: imgbot2,
       sourceUrl: sch,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -1566,13 +1566,13 @@ let msgg = {
     let daftar = {
   unreg: `👋 Hai ${userTag} sebelum menggunakan bot registrasi terlebih dahulu.\n
 
-*▰▱[${global.yanto}]▱▰*
+*▰▱[${global.namebot}]▱▰*
 
 ╭─•「 *Via Email*」
 
  | Text: *.regmail*
 
-> _Example: .regmail @rayhitam321@gmail.com //your email_
+> _Example: .regmail @xinzftxira321@gmail.com //your email_
 
 ╰─
 
@@ -1617,7 +1617,7 @@ let msgg = {
       externalAdReply: {
       title: '乂 A K S E S D I T O L A K',
       body: 'please registrasi now',
-      thumbnailUrl: registrasi,
+      thumbnailUrl: imgbot2,
       sourceUrl: sch,
       mediaType: 1,
       renderLargerThumbnail: true
