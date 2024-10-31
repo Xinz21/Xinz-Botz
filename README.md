@@ -5,6 +5,12 @@
 
 <h1 align="center">Xinz-Botz</h1>
 
+Simple WhatsApp Bot
+
+<p align="center">
+  <a href="https://github.com/Xinz21"><img src="http://readme-typing-svg.herokuapp.com?color=7FFF00&center=true&vCenter=true&multiline=false&lines=Simple+Whatsapp+Bot;Give+star+and+forks+this+repo+:)" alt="Ehe~">
+</p> 
+      
 -----------
 ## Description 
 - Xinz botz adalah bot yang di rancang untuk bermain ff
