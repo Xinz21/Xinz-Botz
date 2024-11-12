@@ -36,7 +36,7 @@ Simple WhatsApp Bot
 -------------
 
 ------------
-## Feature Mendatang ya/no
+## Feature Mendatang (ya/sudah)
 - pairing
 - maker (ya)
 - berita (ya)
