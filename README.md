@@ -22,6 +22,7 @@ Simple WhatsApp Bot
 - beton list/normal (remove)
 - bug console (fixxed)
 - bug time (fixxed)
+- ytdl (fixxed)
 - and all
 ------------
 
@@ -36,17 +37,19 @@ Simple WhatsApp Bot
 -------------
 
 ------------
-## Feature Mendatang (ya/sudah)
-- pairing
-- maker (ya)
-- berita (ya)
-- kenon (ya)
-- bug (ya)
-- beton slide
-- on/off
-- autoread sw
-- autoreact/like sw
-- ai fitur 
+## Feature (ya/no)
+- pairing (ya)
+- maker (no)
+- berita (no)
+- kenon (no)
+- bug (no)
+- beton slide (ya)
+- on/off (ya)
+- autoread sw (ya)
+- autoreact/like sw (ya)
+- ai fitur (ya)
+- ytdl (ya)
+- pixiv (ya)
 - rpg (ya)
 - tools (ya)
 ------------
