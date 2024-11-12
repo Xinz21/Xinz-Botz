@@ -19,7 +19,7 @@ Simple WhatsApp Bot
 ------------
 ## Fixxed / Added
 - fix bug modul
-- add beton list
+- remove beton list/normal
 - and all
 ------------
 
@@ -34,18 +34,19 @@ Simple WhatsApp Bot
 -------------
 
 ------------
-## Feature 
+## Feature Mendatang ya/no
 - pairing
-- beton list
+- maker (ya)
+- berita (ya)
+- kenon (ya)
+- bug (ya)
 - beton slide
 - on/off
 - autoread sw
 - autoreact/like sw
-- ai fitur
-- rpg (basic)
-- tools
-- and comming soon
-- maybe top up?
+- ai fitur 
+- rpg (ya)
+- tools (ya)
 ------------
 
 ## Thanks To
