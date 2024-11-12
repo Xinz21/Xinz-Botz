@@ -21,6 +21,7 @@ Simple WhatsApp Bot
 - bug modul (fixxed)
 - beton list/normal (remove)
 - bug console (fixxed)
+- bug time (fixxed)
 - and all
 ------------
 
