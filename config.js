@@ -5,14 +5,12 @@ import { fileURLToPath } from 'url'
 //*============== NOMOR ==============*\\
 global.nomorbot = '62888021017××' //Nomor Bot
 global.nomorown = '62813198103××' //Nomor Ownerlobal.namebot 
-global.namebot = 'Xinz-Botz'
 global.nameown = 'XinZ' // Nama Owner
 
 //*============== Owner ==============*\\
 global.owner = [
   ['+62888021017××', 'Xira', true],
-  ['+62813198103××', 'XinZ', true],
-  ['+62815376687××', 'Vanz', true]
+  ['+62813198103××', 'XinZ', true]
   ]//Nomor owner 
 
 global.mods = ['', '']
@@ -49,7 +47,6 @@ global.wel =
 global.good = 
   'https://telegra.ph/file/2e96639cf2f23858ac2e1.mp4'
 global.ppKosong = 'https://i.ibb.co/3Fh9V6p/avatar-contact.png'
-global.thumbnail = 'https://telegra.ph/file/fc5a59759d9c0dad9c14d.jpg'
 global.ppUrl = 'https://i.ibb.co/3Fh9V6p/avatar-contact.png'
 
 // Sticker WM and react
