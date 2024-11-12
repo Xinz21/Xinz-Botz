@@ -13,7 +13,7 @@ Simple WhatsApp Bot
       
 -----------
 ## Description 
-- Xinz botz adalah bot yang di rancang untuk bermain ff
+- Xinz botz adalah bot yang di rancang untuk memudahkan user 
 ------------
 
 ------------
