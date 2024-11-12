@@ -17,9 +17,10 @@ Simple WhatsApp Bot
 ------------
 
 ------------
-## Fixxed / Added
-- fix bug modul
-- remove beton list/normal
+## Fixxed / Added / remove
+- bug modul (fixxed)
+- beton list/normal (remove)
+- bug console (fixxed)
 - and all
 ------------
 
