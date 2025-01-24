@@ -7,7 +7,7 @@
 Simple WhatsApp Bot
 
 <p align="center">
-  <a href="https://github.com/Xinz21"><img src="https://files.catbox.moe/q7xtoh.jpg?color=7FFF00&center=true&vCenter=true&multiline=false&lines=Simple+Whatsapp+Bot;Give+star+and+forks+this+repo+:)" alt="Ehe~">
+  <a href="https://github.com/xinz21"><img src="https://files.catbox.moe/q7xtoh.jpg?color=7FFF00&center=true&vCenter=true&multiline=false&lines=Simple+Whatsapp+Bot;Give+star+and+forks+this+repo+:)" alt="Ehe~">
 </p> 
       
 -----------
